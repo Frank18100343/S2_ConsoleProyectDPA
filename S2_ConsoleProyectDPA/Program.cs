@@ -53,6 +53,7 @@ namespace S2_ConsoleProyectDPA
             var busqueda = listado.Where(x=>x.dni == "12345678").FirstOrDefault();
 
             Console.WriteLine(busqueda.nombreCompleto);
+
         }
     }
 }
